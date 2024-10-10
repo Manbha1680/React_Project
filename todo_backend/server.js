@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://priyanshu171561:Ti8qktNzN85cYfIr@manvendra.tdnpa.mongodb.net/Todo').then(
+mongoose.connect('mongodb+srv://manbha1680:Ti8qktNzN85cYfIr@manvendra.tdnpa.mongodb.net/Todo').then(
   console.log('MongoDB connected')
 )
 
